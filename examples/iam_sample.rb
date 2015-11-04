@@ -68,15 +68,15 @@ iam_oauth = client.oauth user_consumer_key, user_consumer_secret
 response = iam_oauth.access_token
 iam_access_token = response.body["accessToken"]
 
-#p '[get business-process API...]'
-#service_name = 'bocn'
-#business_process = client.business_process iam_access_token
-#business_process.get "contracts", service_name
-#
-#p '[get APILog API...]'
-#date = Time.now.strftime "%Y%m%d"
-#api_log = client.api_log iam_access_token
-#api_log.get date
+p '[get business-process API...]'
+service_name = 'bocn'
+business_process = client.business_process iam_access_token
+business_process.get "contracts", service_name
+
+p '[get APILog API...]'
+date = Time.now.strftime "%Y%m%d"
+api_log = client.api_log iam_access_token
+api_log.get date
 
 p '[get IAM API...]'
 iam_user_iam = client.iam iam_access_token
@@ -88,5 +88,6 @@ p delete_role_from_group_path
 response = iam.delete delete_role_from_group_path
 iam.get search_group_uuid
 
-#p '[get business-process API...]'
-#business_process.get "contracts", service_name
+p '[get business-process API...]'
+service_name = 'uno'
+business_process.get "contracts", service_name
