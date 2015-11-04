@@ -1,0 +1,6 @@
+production:
+  host: "https://api.ntt.com"
+  api_version: "v1"
+  timeout: 60000
+  verify_ssl: true
+  debuggable: true
