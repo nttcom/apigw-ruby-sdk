@@ -1,4 +1,4 @@
-NTT Communications API SDK(ruby)
+NTT Communications APIGateway SDK(ruby)
 ===
 
 このライブラリは、NTT Communications APIsと対話的にアクセスするための簡易的なラッパーを提供します。
