@@ -86,6 +86,10 @@ response = client.api_log('アクセストークン').get('日付(YYYYMMDD)')
 records = response.body['Records']
 ```
 
+### その他API
+
+examples/を参考にしてください。
+
 ApiGW::ApiBase の継承について
 ---
 
