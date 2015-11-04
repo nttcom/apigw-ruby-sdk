@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["NTT Communications APIGateway Teams"]
   spec.email         = ["apigateway@ntt.com"]
 
-  spec.summary       = %q{NTT Communications APiGateway SDK}
-  spec.description   = %q{NTT Communications APiGateway SDK}
+  spec.summary       = %q{NTT Communications APIGateway SDK}
+  spec.description   = %q{NTT Communications APIGateway SDK}
   spec.homepage      = "https://github.com/nttcom/apigw-ruby-sdk"
 
   spec.files = Dir["README.md", "lib/**/*.rb", "*.gemspec" ]
