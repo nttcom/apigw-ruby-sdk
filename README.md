@@ -15,6 +15,16 @@ Gemfile に下記を追記し、`bundle install`
 gem 'apigw'
 ```
 
+### gem install
+
+```ruby
+gem install apigw
+```
+
+参考:
+<https://rubygems.org/gems/apigw>
+
+
 システム要件
 ---
 
